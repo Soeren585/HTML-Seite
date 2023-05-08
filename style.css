@@ -1,0 +1,280 @@
+/* import von Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', cursive;
+}
+/*body{
+    background-image: url("/Bilder2/Warhammer40k/Hintergrundbild.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+}*/
+main{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 50px;
+    padding-right: 5px;
+}
+p{
+    font-size: 20px;
+}
+nav{
+    padding-top: 45px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 40px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.Banner img{
+    max-width: 500px;
+    max-height: 200px;
+}
+.NameSpiel{
+    text-align: center;
+    font-size: 65px;
+    font-family: Federation;
+    color:bisque;
+}
+p{
+    display: block;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+    height: 25px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo2{
+    margin: 10px 0 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.logo2 img{
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+.logo2:hover img {
+    transform: scale(1.4);
+}
+a{
+    position: relative;
+    color: rgb(85,83,83);
+    font-size: 17px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+.fad{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+.Lorem{
+    color:beige;
+}
+a:hover{
+    background: #eee;
+}
+nav:hover{
+    width: 280px;
+    transition: 0.5s ease;
+}
+header{
+    display: flex;
+	flex-wrap: wrap;
+    padding-left: 45px;
+    position: fixed;
+    height: 45px;
+    top: 0;
+    left: 0;
+    background-color: #999;
+    width: 100%;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out;
+}
+header.scrolled {
+    opacity: 0.7;
+}
+.logo span{
+    font-weight: bold;
+    padding-left:15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.Impressum{
+    font-size: 15px;
+    font-family: Federation;
+}
+footer{
+    display: flex;
+	flex-wrap: wrap;
+    padding-left: 45px;
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    left: 0;
+    background: #999;
+    width: 100%;
+}
+.SozK{
+    font-size: 13px;
+    padding-left: 30px;
+}
+.a1{
+    right:0;
+    top: 0;
+    position: fixed;
+    color: rgb(85,83,83);
+    font-size: 22px;
+    display: table-header-group;
+    width: 370px;
+    padding: 9px;
+}
+.suche{
+    cursor: text;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 280px;
+    /*transition: width 0.5s ease-in-out;*/
+}
+.senden{
+    cursor: pointer;
+    border-radius: 3px;
+}
+.BildInText1{
+    width: 50%;
+    height: 50%;
+}
+/*.Hintergrund{
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+}*/
+.WH40K{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/Warhammer40k/HintergrundbildHeiligesTerra.jpg');
+    background-color: rgba(255, 255, 255, 0.5);
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
+.BoltA{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/BoltAction/Wallpaper.jpg');
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
+.DeBA{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/DBA/Wallpaper.jpg');
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
+.index{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/HintergrundbildIndex.jpg');
+    /*background: #dfe9f5;*/ 
+}
+.WarHordes{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/WarmachineHordes/500px-Tabletop_picture1.jpg');
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
+.XWing{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/XWing/Wallpaper.avif');
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
+.Lion{
+    width: 100%;
+	height: 100vh;
+    background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	z-index: 1;
+    background-image: url('/Bilder2/LionRampant/Wallpaper.jpg');
+    /*background: #dfe9f5; 
+    opacity: 0.5;*/
+}
